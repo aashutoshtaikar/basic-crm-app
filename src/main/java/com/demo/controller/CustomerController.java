@@ -21,6 +21,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
+	//list the customers and show homepage
 	@GetMapping("/list")
 	public ModelAndView getHomepage() {
 		ModelAndView mv = new ModelAndView();
